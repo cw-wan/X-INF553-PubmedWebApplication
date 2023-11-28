@@ -37,10 +37,7 @@ Then go to http://127.0.0.1:8000
 
 The backend is built with Django and the frontend is built with React separately.
 
-If you want to build the frontend by yourself, deploy Next.js in `frontend/` and run `npm run build`.
-
-A pre-built version is already available at `pubmed/pubmed/build`.
-
+If you want to build the frontend by yourself, deploy Next.js in `frontend/` and run `npm run build`. The output should be placed at `pubmed/pubmed/build`.
 
 ## Test cases
 

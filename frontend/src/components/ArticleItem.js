@@ -28,7 +28,7 @@ const ArticleItem = ({article}) => {
             <Link to={`/author/${author.author_id}`}>{author.author_name + ", "}</Link>
         </span>))}
         </div>
-        <div><span>{article.journal_title}, {article.year}, </span><a href={article.pubmed_link}>Pubmed</a></div>
+        <div><span><Link to={`/journal/${article.journal_title}`}>{article.journal_title}</Link>, {article.year}, </span><a href={article.pubmed_link}>Pubmed</a></div>
         {article.grant_val && (<div>
             Grant info: {article.grant_val}
         </div>)}
